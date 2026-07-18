@@ -8,7 +8,6 @@ const auth = require("./middleware/auth");
 
 dotenv.config();
 connectDB();
-
 const app = express();
 
 app.use(
